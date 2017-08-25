@@ -70,27 +70,15 @@ if (!process.env.token) {
 }
 
 var Botkit = require('botkit');
-var os = require('os');
 
 var controller = Botkit.slackbot({
-    debug: true,
+    debug: true
 });
 
 var bot = controller.spawn({
     token: process.env.token
 }).startRTM();
 
-controller.hears(['0x[0-9a-f]{20}'], 'direct_message,direct_mention,mention', function(bot, message) {
-    var name = message.match[1];
-    controller.storage.users.get(message.user, function(err, user) {
-        if (!user) {
-            user = {
-                id: message.user,
-            };
-        }
-        user.name = name;
-        controller.storage.users.save(user, function(err, id) {
-            bot.reply(message, 'Got it. I will call you ' + user.name + ' from now on.');
-        });
-    });
+controller.hears(['0x[0-9a-f]{20}'], 'ambient, message_received', function(bot, message) {
+  bot.reply(message, 'foobar');
 });
