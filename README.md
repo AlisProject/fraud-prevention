@@ -8,3 +8,10 @@ Protect ICO projects from scammers.
 1. `pip install slackclient` 
 1. `python ./slackbot-resistant/index.py 1503301170`
     - `1503301170` is Unix timestamp of notify message. Please change it.
+
+## For Slack scam
+Specify `Restrict API Token Usage` is recommended at Slack bot integration settings.
+
+1. `yarn`
+1. Create bot integration.
+    - https://my.slack.com/services/new/bot

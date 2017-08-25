@@ -13,7 +13,7 @@ Slackbot詐欺に気を付けてください！ *Slackbotからのメッセー�
 
 We will *NEVER* give you the ICO's ETH address via Slack! 
 また、Slack上でICO用のETHアドレスを書くことは *絶対にありません* !
-此外，绝对不要在Slack上发布ICO的任何以太坊地址！
+此外，绝对不要在Slack上发布ICO的任何以太坊地址！
 '''
 
 # Get all users
