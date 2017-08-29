@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-import sys
+from datetime import datetime
 from slackclient import SlackClient
 
 slack_token = os.environ["ALIS_FRAUD_PREVENTION_SLACK_API_TOKEN"]
@@ -41,11 +41,12 @@ users = sc.api_call(
 )
 
 # Add reminders.
+remindTime = int(datetime.now().strftime("%s")) + 600 # 10 minutes from execute.
 for user in users["members"]:
   sc.api_call(
     "reminders.add",
     text=message.encode('utf-8') ,
-    time=sys.argv[1], # Unix timestamp.
+    time=remindTime,
     user=user['id']
   )
   print user['name'] + ' ' + user['id']

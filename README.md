@@ -6,8 +6,7 @@ Protect ICO projects from scammers.
 1. You can get a Slack API token from [here](https://api.slack.com/custom-integrations/legacy-tokens). 
 1. `export ALIS_FRAUD_PREVENTION_SLACK_API_TOKEN=xoxp-1234-YOUR-TOKEN-HERE` 
 1. `pip install slackclient` 
-1. `python ./slackbot-resistant/index.py 1503301170`
-    - `1503301170` is Unix timestamp of notify message. Please change it.
+1. `python ./slackbot-resistant/index.py`
 
 ### Fro new member
 Depends `pip` and `aws-cli`. 
