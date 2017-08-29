@@ -45,7 +45,7 @@ users = sc.api_call(
 )
 
 # Add reminders.
-index = 1
+index = 0
 interval = 6
 remindTime = int(datetime.now().strftime("%s")) + 600 # 10 minutes from execute.
 for user in users["members"]:
