@@ -47,8 +47,14 @@ users = sc.api_call(
 # Add reminders.
 index = 1
 interval = 6
-remindTime = int(datetime.now().strftime("%s")) + 60 # 1 minuit from execute.
+remindTime = int(datetime.now().strftime("%s")) + 600 # 10 minutes from execute.
 for user in users["members"]:
+  index += 1
+
+  # exclude bot users.
+  if user['is_bot'] or user['id'] == 'USLACKBOT':
+    continue
+
   time.sleep(interval)
   remindTime += interval
   result = sc.api_call(
@@ -58,4 +64,4 @@ for user in users["members"]:
     user=user['id']
   )
   print str(index) + ': ' + user['name'] + ' ' + user['id'] + ': ' + str(result['ok'])
-  index += 1
+
