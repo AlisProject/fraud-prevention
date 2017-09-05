@@ -23,15 +23,6 @@ For the new member: *Please be aware of fraud on Slack.*
 - Slack上でICO用のETHアドレスを書くことは *絶対にありません* !
 - *すべてのダイレクトメッセージは詐欺* と考えてください！！！
 - *すべてのプリセールの勧誘は詐欺* です！！！
-
-
-给新会员: *请注意来自Slack的虚假信息！*
-
-- 请注意来自Slackbot的虚假信息！*所有来自Slackbot的信息均为虚假信息！*
-- 此外，绝对不要在Slack上发布ICO的任何以太坊地址！
-- 请将 *所有的私人消息视为欺诈消息* ！！！
-- 所有 *预售招标是欺诈！！！*
-
 :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
 '''
 

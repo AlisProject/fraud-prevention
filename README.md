@@ -82,6 +82,8 @@ If you need 24 hours protection, you should pay monthly fee to heroku.
 1. Create bot integration at Slack [here](https://my.slack.com/services/new/bot).
     - and get API Token.
 1. `heroku login` 
+1. `heroku create APPNAME` 
+    - or `heroku git:remote --app APPNAME` 
 1. `git push heroku master` 
 1. `heroku config:add token=YOUR_SLACK_API_TOKEN`
 1. Turn on the **worker** on heroku.
