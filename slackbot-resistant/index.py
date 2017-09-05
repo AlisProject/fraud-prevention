@@ -26,16 +26,6 @@ message = u'''
 - *すべてのダイレクトメッセージは詐欺* と考えてください！！！
 - *すべてのプリセールの勧誘は詐欺* です！！！
 - *怪しいリンクは決して不用意にクリックしないでください！！！*
-
-
-*请注意来自Slack的虚假信息！*
-
-- 请注意来自Slackbot的虚假信息！*所有来自Slackbot的信息均为虚假信息！*
-- 此外，绝对不要在Slack上发布ICO的任何以太坊地址！
-- 请将 *所有的私人消息视为欺诈消息* ！！！
-- 所有 *预售招标是欺诈！！！*
-- *千万不要轻易点击可疑链接！！！*
-
 :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
 '''
 
