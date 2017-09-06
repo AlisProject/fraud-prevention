@@ -17,6 +17,7 @@ message = u'''
 - Please think like that: *Every direct messages are fraud!!!!!*
 - All of *PreSale information is fraud!!!*
 - Please *NEVER CLICK FISHY LINKS!!!*
+- Especially *Fake MyEtherWallet link* is famous as fraud.
 
 
 *Slackでの詐欺にお気をつけください。*
@@ -26,6 +27,7 @@ message = u'''
 - *すべてのダイレクトメッセージは詐欺* と考えてください！！！
 - *すべてのプリセールの勧誘は詐欺* です！！！
 - *怪しいリンクは決して不用意にクリックしないでください！！！*
+- 特に、 *MyEtherWalletの偽物へのリンク* を貼られる詐欺が発生しています！！！
 :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
 '''
 

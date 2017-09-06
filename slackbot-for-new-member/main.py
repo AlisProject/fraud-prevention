@@ -15,6 +15,8 @@ For the new member: *Please be aware of fraud on Slack.*
 - We will *NEVER* give you the ICO's ETH address via Slack! 
 - Please think like that: *Every direct messages are fraud!!!!!*
 - All of *PreSale information is fraud!!!*
+- Please *NEVER CLICK FISHY LINKS!!!*
+- Especially *Fake MyEtherWallet link* is famous as fraud.
 
 
 新しくALISのSlackに登録された方へ: *Slackでの詐欺にお気をつけください。*
@@ -23,6 +25,8 @@ For the new member: *Please be aware of fraud on Slack.*
 - Slack上でICO用のETHアドレスを書くことは *絶対にありません* !
 - *すべてのダイレクトメッセージは詐欺* と考えてください！！！
 - *すべてのプリセールの勧誘は詐欺* です！！！
+- *怪しいリンクは決して不用意にクリックしないでください！！！*
+- 特に、 *MyEtherWalletの偽物へのリンク* を貼られる詐欺が発生しています！！！
 :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
 '''
 
